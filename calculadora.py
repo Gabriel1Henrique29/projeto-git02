@@ -15,11 +15,11 @@ def calcula_media(n1, n2, n3):
         valida(n)
         return (n1 + n2 + 2 * n3) /4
     
-    def situação (media):
-        """Retorna 'aprovado', 'recuperação' ou 'reprovado'."""
-        if media >= MEDIA_APROVACAO:
-            return "aprovado"
-        if media >= MEDIA_REPROVACAO:
-            return "recuperacao"
-        return "reprovado"
+def situacao (media):
+    """Retorna 'aprovado', 'recuperação' ou 'reprovado'."""
+    if media >= MEDIA_APROVACAO:
+        return "aprovado"
+    if media >= MEDIA_REPROVACAO:
+        return "recuperacao"
+    return "reprovado"
     
